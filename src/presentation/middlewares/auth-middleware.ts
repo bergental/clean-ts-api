@@ -1,4 +1,4 @@
-import { LoadAccountByToken } from '../../domain/usecases/load-account by-token'
+import { LoadAccountByToken } from '../../domain/usecases/load-account-by-token'
 import { AccessDeniedError } from '../errors/access-denied-error'
 import { forbidden } from '../helpers/http/http-helper'
 import { Middleware, HttpRequest, HttpResponse } from '../protocols'
