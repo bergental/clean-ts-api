@@ -1,3 +1,6 @@
+[![Build Status](https://www.travis-ci.com/bergental/clean-ts-api.svg?branch=master)](https://www.travis-ci.com/bergental/clean-ts-api)
+[![Coverage Status](https://coveralls.io/repos/github/bergental/clean-ts-api/badge.svg)](https://coveralls.io/github/bergental/clean-ts-api)
+
 # **Clean Node API**
 
 Essa API faz parte do treinamento do professor Rodrigo Manguinho (Mango) na Udemy.
