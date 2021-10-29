@@ -24,34 +24,16 @@ export const loginPath = {
         }
       },
       400: {
-        description: 'Bad request',
-        content: {
-          'application/json': {
-            schema: {
-              $ref: '#/schemas/error'
-            }
-          }
-        }
+        $ref: '#/components/badRequest'
       },
       401: {
-        description: 'Unauthorized',
-        content: {
-          'application/json': {
-            schema: {
-              $ref: '#/schemas/error'
-            }
-          }
-        }
+        $ref: '#/components/unauthorized'
+      },
+      404: {
+        $ref: '#/components/notFound'
       },
       500: {
-        description: 'Internal server error',
-        content: {
-          'application/json': {
-            schema: {
-              $ref: '#/schemas/error'
-            }
-          }
-        }
+        $ref: '#/components/serverError'
       }
     }
   }
