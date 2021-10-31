@@ -34,7 +34,6 @@ export const surveyPath = {
     tags: ['Enquete'],
     summary: 'API para criar uma enquete',
     requestBody: {
-      description: 'Sucesso',
       content: {
         'application/json': {
           schema: {
